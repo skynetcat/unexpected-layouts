@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This file defines the QWERTY layout.
+
+A layout is made of keys arranged into rows. Keys can be made bigger with the
+'width' attribute and blank space can be added on the left of a key with the
+'shift' attribute.
+
+'key0' assigns the symbol on the middle of the key. 'key1', 'key2', etc..
+assign symbols to the corners of a key, they are arranged like this:
+
+1 7 2
+5 0 6
+3 8 4
+
+Keys prefixed with 'loc ' are not visible on the keyboard. They are used to
+specify a place for a key, if it needed to be added to the layout later.
+(for example, by the "Add keys to keyboard" option)
+
+See bottom_row.xml for the definition of the bottom row and neo2.xml for a
+layout that re-defines it.
+See srcs/juloo.keyboard2/KeyValue.java for the keys that have a special meaning.
+-->
+<keyboard name="arabic" script="arabic" numpad_script="hindu-arabic" bottom_row="false">
+	<row height="0.85">
+		<key width="1.1" key0="1" key4="١" />
+		<key width="1.1" key0="2" key4="٢" />
+		<key width="1.1" key0="3" key4="٣" />
+		<key width="1.1" key0="4" key4="٤" />
+		<key width="1.1" key0="5" key4="٥" />
+		<key width="1.1" key0="6" key3="٦" />
+		<key width="1.1" key0="7" key3="٧" />
+		<key width="1.1" key0="8" key3="٨" />
+		<key width="1.1" key0="9" key3="٩" />
+		<key width="1.1" key0="0" key3="٠" />
+	</row>
+  <row>
+    <key key0="ض" key4=""/>
+    <key key0="ص" key4=""/>
+    <key key0="ث" key4=""/>
+    <key key0="ق" key4=""/>
+    <key key0="ف" key4=""/>
+    <key key0="غ" key2="loc copy"/>
+    <key key0="ع" key2="loc cut" key4="\#" key3="^"/>
+    <key key0="ه" key2="loc paste" key4="!" key3="&amp;"/>
+    <key key0="خ" key1="&lt;" key2="loc selectAll" key3="*" key4="&gt;"/>
+    <key key0="ح" key1="~" key2="loc switch_clipboard"  key3="(" key4=")"/>
+    <key key0="ج" key3="loc esc"/>
+  </row>
+  <row>
+    <key key0="ش"/>
+    <key key0="س"/>
+    <key key0="ي" key8=""/>
+    <key key0="ب" key8=""/>
+    <key key0="ل" key8=""/>
+    <key key0="ا" key1="أ" key2="-" key3="_" key4="$"/>
+    <key key0="ت" key1="%" key2="=" key3="+" key4="\@"/>
+    <key key0="ن" key1="`" key2="loc undo" key4="}" key3="{"/>
+    <key key0="م" key1="." key2="loc redo" key3="[" key4="]"/>
+    <key key0="ك" key2="|" key3="\\" key1="loc tab" />
+    <key key0="ط"/>
+  </row>
+  <row>
+    <key shift="0.5" key0="ذ"/>
+    <key key0="ء"/>
+    <key key0="ر"/>
+    <key key0="ى" key1="ئ"/>
+    <key key0="ة"/>
+    <key key0="و" key1="ؤ"/>
+    <key key0="ز" key2="&#1567;" key3="/" key4="،"/>
+    <key key0="ظ" key2=":" key3=";"/>
+    <key key0="د" key2="&quot;" key3="'"/>
+    <key width="1.5" key0="backspace" key2="delete"/>
+  </row>
+  <row height="0.95">
+	  <key width="1.85" key0="ctrl" key1="loc switch_greekmath" key2="loc change_method" key4="switch_numeric"/>
+	  <key width="1.2" key0="loc alt" key2="loc meta" key1="fn" key3="switch_emoji" key4="config"/>
+	  <key width="4.7" key0="space" key7="switch_forward" key8="switch_backward" key5="cursor_left" key6="cursor_right" slider="true"/>
+	  <key width="1.4" key0="loc compose" key7="up" key6="right" key5="left" key8="down" key1="loc home" key2="loc page_up" key3="loc end" key4="loc page_down"/>
+	  <key width="1.8" key0="enter" key1="loc voice_typing" key2="action"/>
+  </row>
+</keyboard>
