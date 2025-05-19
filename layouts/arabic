@@ -5,12 +5,12 @@ A layout is made of keys arranged into rows. Keys can be made bigger with the
 'width' attribute and blank space can be added on the left of a key with the
 'shift' attribute.
 
-'key0' assigns the symbol on the middle of the key. 'key1', 'key2', etc..
+'c' assigns the symbol on the middle of the key. 'nw', 'ne', etc..
 assign symbols to the corners of a key, they are arranged like this:
 
-1 7 2
-5 0 6
-3 8 4
+nw n ne
+w  0 e
+sw s se
 
 Keys prefixed with 'loc ' are not visible on the keyboard. They are used to
 specify a place for a key, if it needed to be added to the layout later.
@@ -22,60 +22,60 @@ See srcs/juloo.keyboard2/KeyValue.java for the keys that have a special meaning.
 -->
 <keyboard name="arabic" script="arabic" numpad_script="hindu-arabic" bottom_row="false">
 	<row height="0.85">
-		<key width="1.1" key0="1" key4="١" />
-		<key width="1.1" key0="2" key4="٢" />
-		<key width="1.1" key0="3" key4="٣" />
-		<key width="1.1" key0="4" key4="٤" />
-		<key width="1.1" key0="5" key4="٥" />
-		<key width="1.1" key0="6" key3="٦" />
-		<key width="1.1" key0="7" key3="٧" />
-		<key width="1.1" key0="8" key3="٨" />
-		<key width="1.1" key0="9" key3="٩" />
-		<key width="1.1" key0="0" key3="٠" />
+		<key width="1.1" c="1" se="١" />
+		<key width="1.1" c="2" se="٢" />
+		<key width="1.1" c="3" se="٣" />
+		<key width="1.1" c="4" se="٤" />
+		<key width="1.1" c="5" se="٥" />
+		<key width="1.1" c="6" sw="٦" />
+		<key width="1.1" c="7" sw="٧" />
+		<key width="1.1" c="8" sw="٨" />
+		<key width="1.1" c="9" sw="٩" />
+		<key width="1.1" c="0" sw="٠" />
 	</row>
   <row>
-    <key key0="ض" key4=""/>
-    <key key0="ص" key4=""/>
-    <key key0="ث" key4=""/>
-    <key key0="ق" key4=""/>
-    <key key0="ف" key4=""/>
-    <key key0="غ" key2="loc copy"/>
-    <key key0="ع" key2="loc cut" key4="\#" key3="^"/>
-    <key key0="ه" key2="loc paste" key4="!" key3="&amp;"/>
-    <key key0="خ" key1="&lt;" key2="loc selectAll" key3="*" key4="&gt;"/>
-    <key key0="ح" key1="~" key2="loc switch_clipboard"  key3="(" key4=")"/>
-    <key key0="ج" key3="loc esc"/>
+    <key c="ض" se=""/>
+    <key c="ص" se=""/>
+    <key c="ث" se=""/>
+    <key c="ق" se=""/>
+    <key c="ف" se=""/>
+    <key c="غ" ne="loc copy"/>
+    <key c="ع" ne="loc cut" se="\#" sw="^"/>
+    <key c="ه" ne="loc paste" se="!" sw="&amp;"/>
+    <key c="خ" nw="&lt;" ne="loc selectAll" sw="*" se="&gt;"/>
+    <key c="ح" nw="~" ne="loc switch_clipboard"  sw="(" se=")"/>
+    <key c="ج" sw="loc esc"/>
   </row>
   <row>
-    <key key0="ش"/>
-    <key key0="س"/>
-    <key key0="ي" key8=""/>
-    <key key0="ب" key8=""/>
-    <key key0="ل" key8=""/>
-    <key key0="ا" key1="أ" key2="-" key3="_" key4="$"/>
-    <key key0="ت" key1="%" key2="=" key3="+" key4="\@"/>
-    <key key0="ن" key1="`" key2="loc undo" key4="}" key3="{"/>
-    <key key0="م" key1="." key2="loc redo" key3="[" key4="]"/>
-    <key key0="ك" key2="|" key3="\\" key1="loc tab" />
-    <key key0="ط"/>
+    <key c="ش"/>
+    <key c="س"/>
+    <key c="ي" s=""/>
+    <key c="ب" s=""/>
+    <key c="ل" s=""/>
+    <key c="ا" nw="أ" ne="-" sw="_" se="$"/>
+    <key c="ت" nw="%" ne="=" sw="+" se="\@"/>
+    <key c="ن" nw="`" ne="loc undo" se="}" sw="{"/>
+    <key c="م" nw="." ne="loc redo" sw="[" se="]"/>
+    <key c="ك" ne="|" sw="\\" nw="loc tab" />
+    <key c="ط"/>
   </row>
   <row>
-    <key shift="0.5" key0="ذ"/>
-    <key key0="ء"/>
-    <key key0="ر"/>
-    <key key0="ى" key1="ئ"/>
-    <key key0="ة"/>
-    <key key0="و" key1="ؤ"/>
-    <key key0="ز" key2="&#1567;" key3="/" key4="،"/>
-    <key key0="ظ" key2=":" key3=";"/>
-    <key key0="د" key2="&quot;" key3="'"/>
-    <key width="1.5" key0="backspace" key2="delete"/>
+    <key shift="0.5" c="ذ"/>
+    <key c="ء"/>
+    <key c="ر"/>
+    <key c="ى" nw="ئ"/>
+    <key c="ة"/>
+    <key c="و" nw="ؤ"/>
+    <key c="ز" ne="&#1567;" sw="/" se="،"/>
+    <key c="ظ" ne=":" sw=";"/>
+    <key c="د" ne="&quot;" sw="'"/>
+    <key width="1.5" c="backspace" ne="delete"/>
   </row>
   <row height="0.95">
-	  <key width="1.85" key0="ctrl" key1="loc switch_greekmath" key2="loc change_method" key4="switch_numeric"/>
-	  <key width="1.2" key0="loc alt" key2="loc meta" key1="fn" key3="switch_emoji" key4="config"/>
-	  <key width="4.7" key0="space" key7="switch_forward" key8="switch_backward" key5="cursor_left" key6="cursor_right" slider="true"/>
-	  <key width="1.4" key0="loc compose" key7="up" key6="right" key5="left" key8="down" key1="loc home" key2="loc page_up" key3="loc end" key4="loc page_down"/>
-	  <key width="1.8" key0="enter" key1="loc voice_typing" key2="action"/>
+	  <key width="1.85" c="ctrl" nw="loc switch_greekmath" ne="loc change_method" se="switch_numeric"/>
+	  <key width="1.2" c="loc alt" ne="loc meta" nw="fn" sw="switch_emoji" se="config"/>
+	  <key width="4.7" c="space" n="switch_forward" s="switch_backward" w="cursor_left" e="cursor_right" slider="true"/>
+	  <key width="1.4" c="loc compose" n="up" e="right" w="left" s="down" nw="loc home" ne="loc page_up" sw="loc end" se="loc page_down"/>
+	  <key width="1.8" c="enter" nw="loc voice_typing" ne="action"/>
   </row>
 </keyboard>
