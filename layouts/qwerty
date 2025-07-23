@@ -9,7 +9,7 @@ A layout is made of keys arranged into rows. Keys can be made bigger with the
 assign symbols to the corners of a key, they are arranged like this:
 
 nw n ne
-w  0 e
+w  c e
 sw s se
 
 Keys prefixed with 'loc ' are not visible on the keyboard. They are used to
@@ -57,7 +57,7 @@ See srcs/juloo.keyboard2/KeyValue.java for the keys that have a special meaning.
 		<key c="l" ne="|" sw="\\" nw="loc tab"/>
 	</row>
 	<row>
-		<key width="1.5" c="shift" ne="fn" nw="loc capslock"/>
+		<key width="1.5" c="shift" ne="loc capslock"/>
 		<key c="z"/>
 		<key c="x" ne="loc †"/>
 		<key c="c" />
@@ -71,7 +71,7 @@ See srcs/juloo.keyboard2/KeyValue.java for the keys that have a special meaning.
 		<key width="1.7" c="ctrl" nw="loc switch_greekmath" ne="loc change_method" se="switch_numeric"/>
 		<key width="1.1" c="loc alt" ne="loc meta" sw="switch_emoji" se="config"/>
 		<key width="4.4" c="space" n="switch_forward" s="switch_backward" w="cursor_left" e="cursor_right" slider="true"/>
-		<key width="1.1" c="loc compose" n="up" e="right" w="left" s="down" nw="loc home" ne="loc page_up" sw="loc end" se="loc page_down"/>
+		<key width="1.1" c="fn" n="up" e="right" w="left" s="down" nw="loc home" ne="loc page_up" sw="loc end" se="loc page_down"/>
 		<key width="1.7" c="enter" nw="loc voice_typing" ne="action"/>
 	</row>
   <modmap>
@@ -99,5 +99,6 @@ See srcs/juloo.keyboard2/KeyValue.java for the keys that have a special meaning.
     <fn a="b" b="ū" />
     <fn a="n" b="ú" />
     <fn a="m" b="ǔ" />
+    <fn a="t" b="ü" />
   </modmap>
 </keyboard>
