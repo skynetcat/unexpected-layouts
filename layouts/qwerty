@@ -87,18 +87,18 @@ See srcs/juloo.keyboard2/KeyValue.java for the keys that have a special meaning.
     <fn a="x" b="ṻ" />
     <fn a="c" b="ǘ" />
     <fn a="g" b="ǚ" />
-    <fn a="u" b="ì" />
-    <fn a="i" b="ī" />
-    <fn a="o" b="í" />
-    <fn a="p" b="ǐ" />
-    <fn a="h" b="ò" />
-    <fn a="j" b="ō" />
-    <fn a="k" b="ó" />
-    <fn a="l" b="ǒ" />
-    <fn a="v" b="ù" />
-    <fn a="b" b="ū" />
-    <fn a="n" b="ú" />
-    <fn a="m" b="ǔ" />
+    <fn a="u" b="ǐ" />
+    <fn a="i" b="í" />
+    <fn a="o" b="ī" />
+    <fn a="p" b="ì" />
+    <fn a="h" b="ǒ" />
+    <fn a="j" b="ó" />
+    <fn a="k" b="ō" />
+    <fn a="l" b="ò" />
+    <fn a="v" b="ǔ" />
+    <fn a="b" b="ú" />
+    <fn a="n" b="ū" />
+    <fn a="m" b="ù" />
     <fn a="t" b="ü" />
   </modmap>
 </keyboard>
