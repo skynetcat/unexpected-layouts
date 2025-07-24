@@ -100,5 +100,9 @@ See srcs/juloo.keyboard2/KeyValue.java for the keys that have a special meaning.
     <fn a="n" b="ū" />
     <fn a="m" b="ù" />
     <fn a="t" b="ü" />
+    <fn a="up" b="up" />
+    <fn a="down" b="down" />
+    <fn a="left" b="left" />
+    <fn a="right" b="right" />
   </modmap>
 </keyboard>
