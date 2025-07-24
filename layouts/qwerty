@@ -62,7 +62,7 @@ See srcs/juloo.keyboard2/KeyValue.java for the keys that have a special meaning.
 		<key c="x" ne="loc †"/>
 		<key c="c" />
 		<key c="v" />
-		<key c="b" ne="\?" sw="/" se=","/>
+		<key c="b" ne="\?" sw="/" se="," nw="ß"/>
 		<key c="n" nw="ng" ne=":" sw=";"/>
 		<key c="m" ne="&quot;" sw="'"/>
 		<key width="1.5" c="backspace" ne="delete"/>
