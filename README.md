@@ -10,8 +10,8 @@ These are my custom layouts for [Unexpected-Keyboard](https://github.com/Julow/U
 | Arabic |
 
 ## Fn Modifier
-| ![qwerty pinyin](./images/qwerty_pinyin.png) |
+| ![qwerty pinyin](./images/qwerty_fn.png) |
 | ----- |
-| Qwerty Pinyin |
+| Qwerty with pinyin diacritics |
 
 
