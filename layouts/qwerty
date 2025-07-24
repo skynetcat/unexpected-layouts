@@ -38,15 +38,15 @@ See srcs/juloo.keyboard2/KeyValue.java for the keys that have a special meaning.
 		<key c="w"/>
     <key c="e" ne="loc €"/>
 		<key c="r"/>
-		<key c="t" ne="loc copy"/>
+    <key c="t" ne="loc copy" se="ü"/>
 		<key c="y" ne="loc cut" se="\#" />
 		<key c="u" ne="loc paste" se="!" sw="&amp;" nw="^"/>
 		<key c="i" nw="&lt;" ne="loc selectAll" sw="*" se="&gt;" />
 		<key c="o" nw="~" ne="loc switch_clipboard"  sw="(" se=")"/>
-		<key c="p" sw="loc esc"/>
+		<key c="p" sw="loc esc" nw="ö"/>
 	</row>
 	<row>
-    <key shift="0.5" c="a"/>
+    <key shift="0.5" c="a" ne="ä"/>
 		<key c="s" ne="loc §" sw="loc ß"/>
 		<key c="d"/>
 		<key c="f"/>
