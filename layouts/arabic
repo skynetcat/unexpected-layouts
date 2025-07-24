@@ -39,11 +39,11 @@ See srcs/juloo.keyboard2/KeyValue.java for the keys that have a special meaning.
     <key c="ث" se=""/>
     <key c="ق" se=""/>
     <key c="ف" se=""/>
-    <key c="غ" ne="loc copy" se="$"/>
+    <key c="غ" ne="loc copy" se="$" nw="pasteAsPlainText"/>
     <key c="ع" ne="loc cut" se="\#" sw="^"/>
     <key c="ه" ne="loc paste" se="!" sw="&amp;"/>
     <key c="خ" nw="&lt;" ne="loc selectAll" sw="*" se="&gt;"/>
-    <key c="ح" nw="~" ne="loc switch_clipboard"  sw="(" se=")"/>
+    <key c="ح" nw="~" ne="loc switch_clipboard"  sw="b(" se="b)"/>
     <key c="ج" sw="loc esc"/>
   </row>
   <row>
@@ -64,7 +64,7 @@ See srcs/juloo.keyboard2/KeyValue.java for the keys that have a special meaning.
     <key c="ء"/>
     <key c="ر"/>
     <key c="ى" nw="ئ"/>
-    <key c="ة"/>
+    <key c="ة" ne="" />
     <key c="و" nw="ؤ"/>
     <key c="ز" ne="&#1567;" sw="/" se="،"/>
     <key c="ظ" ne=":" sw=";"/>

@@ -38,7 +38,7 @@ See srcs/juloo.keyboard2/KeyValue.java for the keys that have a special meaning.
 		<key c="w"/>
     <key c="e" ne="loc €"/>
 		<key c="r"/>
-    <key c="t" ne="loc copy" se="ü"/>
+    <key c="t" ne="loc copy" se="ü" nw="pasteAsPlainText"/>
 		<key c="y" ne="loc cut" se="\#" />
 		<key c="u" ne="loc paste" se="!" sw="&amp;" nw="^"/>
 		<key c="i" nw="&lt;" ne="loc selectAll" sw="*" se="&gt;" />
