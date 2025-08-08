@@ -22,60 +22,56 @@ See srcs/juloo.keyboard2/KeyValue.java for the keys that have a special meaning.
 -->
 <keyboard name="arabic" script="arabic" numpad_script="hindu-arabic" bottom_row="false">
 	<row height="0.85">
-		<key width="1.1" c="1" se="١" />
-		<key width="1.1" c="2" se="٢" />
-		<key width="1.1" c="3" se="٣" />
-		<key width="1.1" c="4" se="٤" />
-		<key width="1.1" c="5" se="٥" />
-		<key width="1.1" c="6" sw="٦" />
-		<key width="1.1" c="7" sw="٧" />
-		<key width="1.1" c="8" sw="٨" />
-		<key width="1.1" c="9" sw="٩" />
-		<key width="1.1" c="0" sw="٠" />
+		<key width="1.2" c="1" se="١" />
+		<key width="1.2" c="2" se="٢" />
+		<key width="1.2" c="3" se="٣" />
+		<key width="1.2" c="4" se="٤" />
+		<key width="1.2" c="5" se="٥" />
+		<key width="1.2" c="6" sw="٦" />
+		<key width="1.2" c="7" sw="٧" />
+		<key width="1.2" c="8" sw="٨" />
+		<key width="1.2" c="9" sw="٩" />
+		<key width="1.2" c="0" sw="٠" />
 	</row>
   <row>
-    <key c="ض" se=""/>
-    <key c="ص" se=""/>
-    <key c="ث" se=""/>
-    <key c="ق" se=""/>
-    <key c="ف" se="combining_shaddah" nw="combining_hamza_above" sw="combining_hamza_below"/>
-    <key c="غ" ne="loc copy" se="$" nw="pasteAsPlainText"/>
-    <key c="ع" ne="loc cut" se="\#" sw="^"/>
-    <key c="ه" ne="loc paste" se="!" sw="&amp;"/>
-    <key c="خ" nw="&lt;" ne="loc selectAll" sw="*" se="&gt;"/>
-    <key c="ح" nw="~" ne="loc switch_clipboard"  sw="b(" se="b)"/>
-    <key c="ج" sw="loc esc"/>
+    <key width="1.2" c="ض" se=""/>
+    <key width="1.2" c="ص" se=""/>
+    <key width="1.2" c="ق" se="ڤ"/>
+    <key width="1.2" c="ف" se="combining_shaddah" nw="combining_hamza_above" sw="combining_hamza_below"/>
+    <key width="1.2" c="غ" ne="loc copy" se="$" nw="pasteAsPlainText"/>
+    <key width="1.2" c="ع" ne="loc cut" se="\#" sw="^"/>
+    <key width="1.2" c="ه" ne="loc paste" se="!" sw="&amp;" nw="ة"/>
+    <key width="1.2" c="خ" nw="&lt;" ne="loc selectAll" sw="*" se="&gt;"/>
+    <key width="1.2" c="ح" nw="~" ne="loc switch_clipboard"  sw="b(" se="b)"/>
+    <key width="1.2" c="ج" sw="loc esc"/>
   </row>
   <row>
-    <key c="ش"/>
-    <key c="س"/>
-    <key c="ي" s=""/>
-    <key c="ب" s=""/>
-    <key c="ل" s="" ne="combining_fatha" nw="combining_dammah" sw="combining_kasra" se="combining_sukun"/>
-    <key c="ا" nw="آ" ne="-" sw="_" se="£"/>
-    <key c="ت" nw="%" ne="=" sw="+" se="\@"/>
-    <key c="ن" nw="`" ne="loc undo" se="}" sw="{"/>
-    <key c="م" nw="." ne="loc redo" sw="[" se="]"/>
-    <key c="ك" ne="|" sw="\\" nw="loc tab" />
-    <key c="ط"/>
+    <key width="1.2" shift="0.6" c="ش"/>
+    <key width="1.2" c="س" s=""/>
+    <key width="1.2" c="ي" nw="ئ" ne="ى"/>
+    <key width="1.2" c="ل" s="" ne="combining_fatha" nw="combining_dammah" sw="combining_kasra" se="combining_sukun"/>
+    <key width="1.2" c="ا" nw="أ" ne="-" sw="_" se="£"/>
+    <key width="1.2" c="ت" nw="%" ne="=" sw="+" se="\@"/>
+    <key width="1.2" c="ن" nw="`" ne="loc undo" se="}" sw="{"/>
+    <key width="1.2" c="م" nw="." ne="loc redo" sw="[" se="]"/>
+    <key width="1.2" c="ك" ne="|" sw="\\" nw="loc tab"/>
   </row>
   <row>
-    <key shift="0.5" c="ذ"/>
-    <key c="ء"/>
-    <key c="ر"/>
-    <key c="ى" nw="ئ"/>
-    <key c="ة"/>
-    <key c="و" nw="ؤ"/>
-    <key c="ز" ne="&#1567;" sw="/" se="،" nw="؛"/>
-    <key c="ظ" ne=":" sw=";"/>
-    <key c="د" ne="&quot;" sw="'"/>
-    <key width="1.5" c="backspace" ne="delete"/>
+    <key width="1.8" c="ث" ne="آ"/>
+    <key width="1.2" c="ذ"/>
+    <key width="1.2" c="ر" ne="ء"/>
+    <key width="1.2" c="ب" s=""/>
+    <key width="1.2" c="و" nw="ؤ"/>
+    <key width="1.2" c="ز" ne="&#1567;" sw="/" se="،" nw="؛"/>
+    <key width="1.2" c="ط" nw="ظ" ne=":" sw=";"/>
+    <key width="1.2" c="د" ne="&quot;" sw="'"/>
+    <key width="1.8" c="backspace" ne="delete"/>
   </row>
   <row height="0.95">
-	  <key width="1.85" c="ctrl" nw="loc switch_greekmath" ne="loc change_method" se="switch_numeric"/>
-	  <key width="1.2" c="loc alt" ne="loc meta" nw="fn" sw="switch_emoji" se="config"/>
-	  <key width="4.7" c="space" n="switch_forward" s="switch_backward" w="cursor_left" e="cursor_right" slider="true"/>
-	  <key width="1.4" c="loc compose" n="up" e="right" w="left" s="down" nw="loc home" ne="loc page_up" sw="loc end" se="loc page_down"/>
-	  <key width="1.8" c="enter" nw="loc voice_typing" ne="action"/>
+	  <key width="2" c="ctrl" nw="loc switch_greekmath" ne="loc change_method" se="switch_numeric"/>
+	  <key width="1.3" c="loc alt" ne="loc meta" sw="switch_emoji" se="config"/>
+	  <key width="5.3" c="space" n="switch_forward" s="switch_backward" w="cursor_left" e="cursor_right" slider="true"/>
+	  <key width="1.4" c="fn" n="up" e="right" w="left" s="down" nw="loc home" ne="loc page_up" sw="loc end" se="loc page_down"/>
+	  <key width="2" c="enter" nw="loc voice_typing" ne="action"/>
   </row>
 </keyboard>
