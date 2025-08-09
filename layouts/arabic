@@ -36,7 +36,7 @@ See srcs/juloo.keyboard2/KeyValue.java for the keys that have a special meaning.
   <row>
     <key width="1.2" c="ض" se=""/>
     <key width="1.2" c="ص" se=""/>
-    <key width="1.2" c="ق" se="ڤ"/>
+    <key width="1.2" c="ق" se="ڤ" nw="ث"/>
     <key width="1.2" c="ف" se="combining_shaddah" nw="combining_hamza_above" sw="combining_hamza_below"/>
     <key width="1.2" c="غ" ne="loc copy" se="$" nw="pasteAsPlainText"/>
     <key width="1.2" c="ع" ne="loc cut" se="\#" sw="^"/>
@@ -46,9 +46,10 @@ See srcs/juloo.keyboard2/KeyValue.java for the keys that have a special meaning.
     <key width="1.2" c="ج" sw="loc esc"/>
   </row>
   <row>
-    <key width="1.2" shift="0.6" c="ش"/>
+    <key width="1.2" c="ش"/>
     <key width="1.2" c="س" s=""/>
     <key width="1.2" c="ي" nw="ئ" ne="ى"/>
+    <key width="1.2" c="ب" s=""/>
     <key width="1.2" c="ل" s="" ne="combining_fatha" nw="combining_dammah" sw="combining_kasra" se="combining_sukun"/>
     <key width="1.2" c="ا" nw="أ" ne="-" sw="_" se="£"/>
     <key width="1.2" c="ت" nw="%" ne="=" sw="+" se="\@"/>
@@ -57,13 +58,13 @@ See srcs/juloo.keyboard2/KeyValue.java for the keys that have a special meaning.
     <key width="1.2" c="ك" ne="|" sw="\\" nw="loc tab"/>
   </row>
   <row>
-    <key width="1.8" c="ث" ne="آ"/>
-    <key width="1.2" c="ذ"/>
+    <key width="1.8" c="ذ" ne="آ"/>
+    <key width="1.2" c="ء"/>
     <key width="1.2" c="ر" ne="ء"/>
-    <key width="1.2" c="ب" s=""/>
+    <key width="1.2" c="ز" />
     <key width="1.2" c="و" nw="ؤ"/>
-    <key width="1.2" c="ز" ne="&#1567;" sw="/" se="،" nw="؛"/>
-    <key width="1.2" c="ط" nw="ظ" ne=":" sw=";"/>
+    <key width="1.2" c="ط" ne="&#1567;" sw="/" se="،" nw="؛"/>
+    <key width="1.2" c="ظ" ne=":" sw=";"/>
     <key width="1.2" c="د" ne="&quot;" sw="'"/>
     <key width="1.8" c="backspace" ne="delete"/>
   </row>
